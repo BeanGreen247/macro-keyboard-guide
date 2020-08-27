@@ -1,5 +1,5 @@
 # macro-keyboard-guide
-a guide on setting up a secondary macro keyboard
+a guide on setting up a secondary keyboard as a macro keyboard
 
 ## The guide
 ```
