@@ -2,20 +2,35 @@
 button=$1
 
 if [[ $button == "up" ]] ; then
-	xdotool key ctrl+alt+t #terminal
+	pcmanfm Downloads/ &!
 fi
 if [[ $button == "down" ]] ; then
-	xdotool key ctrl+alt+f #filemanager
+	pcmanfm Documents/ &!
 fi
 if [[ $button == "left" ]] ; then
-	xdotool key ctrl+alt+w #firefox
+	pcmanfm Videos/ &!
 fi
 if [[ $button == "right" ]] ; then
-	xdotool key ctrl+alt+c #code
+	pcmanfm Pictures/ &!
 fi
 if [[ $button == "rctrl" ]] ; then
-	pcmanfm Downloads/
+	pcmanfm &!
 fi
-if [[ $button == "rmenu" ]] ; then
-	kdenlive
+if [[ $button == "rshift" ]] ; then
+	clementine &!
+fi
+if [[ $button == "altgr" ]] ; then
+	gnome-disks &!
+fi
+if [[ $button == "enter" ]] ; then
+	filezilla &!
+fi
+if [[ $button == "backspace" ]] ; then
+	xdotool key ctrl+alt+w &! #chrome
+fi
+if [[ $button == "del" ]] ; then
+	xdotool key ctrl+alt+c &! #code
+fi
+if [[ $button == "ins" ]] ; then
+	xdotool key ctrl+alt+t &! #terminal
 fi
