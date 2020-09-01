@@ -99,6 +99,12 @@ run xinput test
 
 to figure out what key names you have to use with xdotoo run xev
 
+**make the scripts executable**
+```
+chmod +x inputAction.sh
+chmod +x keylistener.sh
+```
+
 ## video for reference
 
 [one step closer to becoming a macro king](https://www.youtube.com/watch?v=GHMROmAZlUM&feature=youtu.be)
